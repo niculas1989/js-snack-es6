@@ -31,6 +31,10 @@ for (let j = 0; j < bikes.length; j++) {
     let { peso, nome } = bikes[j];
     weight += peso;
     weightBikes.push(peso);
+
+    for (let k = 0; k < weightBikes.length; k++) {
+
+    }
     //if (peso < 2) console.log(`Il peso della bici minore è della ${nome}: pesa solamente ${peso}!`);
 }
 
