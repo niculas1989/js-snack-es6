@@ -21,5 +21,13 @@ const bikes = [
 
 //! SECOND STEP
 //| ciclo in cui cercare ciò che mi interessa
+// inizializzo una variabile vuota
+let weight = 0;
 
+// ciclo in cui "girare"
+for (let j = 0; j < bikes.length; j++) {
+    let { peso } = bikes[j];
+    console.log(peso);
+
+}
 
