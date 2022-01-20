@@ -13,8 +13,18 @@ Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengo
 //! Step nr 1
 //| Creazione dei due array di squadre
 
+
+//# piccolo appunto: si, sono un appassionato di NBA.
+
 const ovest = [
     { nome: 'lakers', "punti fatti": 0, "falli subiti": 0 },
     { nome: 'GSW', "punti fatti": 0, "falli subiti": 0 },
     { nome: 'Sacramento', "punti fatti": 0, "falli subiti": 0 }
+];
+
+const est = [
+    { nome: 'chicago', "punti fatti": 0, "falli subiti": 0 },
+    { nome: 'toronto', "punti fatti": 0, "falli subiti": 0 },
+    { nome: 'miami', "punti fatti": 0, "falli subiti": 0 }
 ]
+
