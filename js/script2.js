@@ -38,3 +38,7 @@ const est = [
 const NBA = [...ovest, ...est];
 
 console.table(NBA);
+
+for (let k = 0; k < NBA.length; k++) {
+
+}
