@@ -31,5 +31,3 @@ for (let j = 0; j < bikes.length; j++) {
 
     if (peso < 2) console.log(`Il peso della bici minore è della ${nome}: pesa solamente ${peso}!`);
 }
-
-    // console.log(weightElement);
