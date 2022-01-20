@@ -9,6 +9,11 @@ Punti fatti e falli subiti.
 Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 */
 
+//! Step nr 0
+//| creazione di una funzione per generare numeri random
+
+const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+
 
 //! Step nr 1
 //| Creazione dei due array di squadre
@@ -28,7 +33,8 @@ const est = [
     { nome: 'miami', "punti fatti": 0, "falli subiti": 0 }
 ]
 
-//! Step nr 2
-//| creazione di una funzione per generare numeri random
 
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+//! Unione dei due array:
+const NBA = [...ovest, ...est];
+
+console.table(NBA);
