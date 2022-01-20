@@ -28,3 +28,7 @@ const est = [
     { nome: 'miami', "punti fatti": 0, "falli subiti": 0 }
 ]
 
+//! Step nr 2
+//| creazione di una funzione per generare numeri random
+
+const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
