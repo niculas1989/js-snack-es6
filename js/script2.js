@@ -37,10 +37,15 @@ const est = [
 //! Unione dei due array:
 const NBA = [...ovest, ...est];
 
+const newRules = [];
+
 console.table(NBA);
 
 for (let k = 0; k < NBA.length; k++) {
     let { nome, falliSubiti } = NBA[k];
-    console.log(nome);
-    console.log(falliSubiti);
+    falliSubiti = getRandomNumber(1, 100);
+
+    newRules.push(nome, falliSubiti);
 }
+
+console.table(newRules);
