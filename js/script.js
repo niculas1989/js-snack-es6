@@ -32,6 +32,7 @@ for (let j = 0; j < bikes.length; j++) {
     weight += peso;
     weightBikes.push(peso);
 
+    // giro all'interno dell'array appena creato con il "push"
     for (let k = 0; k < weightBikes.length; k++) {
 
     }
