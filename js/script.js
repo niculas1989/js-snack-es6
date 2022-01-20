@@ -17,7 +17,10 @@ const bikes = [
     { nome: 'pasticcio', peso: 3 },
     { nome: 'peppa', peso: 7 },
     { nome: 'crispy', peso: 3 }
-]
+];
+
+//| creazione di un Array vuoto in cui inserire il peso di ogni bici
+const weightElement = [];
 
 //! SECOND STEP
 //| ciclo in cui cercare ciò che mi interessa
@@ -27,7 +30,11 @@ let weight = 0;
 // ciclo in cui "girare"
 for (let j = 0; j < bikes.length; j++) {
     let { peso } = bikes[j];
-    console.log(peso);
-
+    weight += peso;
+    weightElement.push(peso);
 }
+
+console.log(weightElement);
+
+// TODO creare il rapporto che mi permetta di capire qual'è la bici più leggera. Come fare? IF? Sempre all'interno del ciclo FOR?
 
