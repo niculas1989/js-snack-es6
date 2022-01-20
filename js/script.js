@@ -19,6 +19,8 @@ const bikes = [
     { nome: 'crispy', peso: 3 }
 ];
 
+const weightBikes = [];
+
 //! SECOND STEP
 //| ciclo in cui cercare ciò che mi interessa
 // inizializzo una variabile vuota
@@ -28,6 +30,8 @@ let weight = 0;
 for (let j = 0; j < bikes.length; j++) {
     let { peso, nome } = bikes[j];
     weight += peso;
-
-    if (peso < 2) console.log(`Il peso della bici minore è della ${nome}: pesa solamente ${peso}!`);
+    weightBikes.push(peso);
+    //if (peso < 2) console.log(`Il peso della bici minore è della ${nome}: pesa solamente ${peso}!`);
 }
+
+console.table(weightBikes);
