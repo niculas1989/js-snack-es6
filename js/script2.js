@@ -22,15 +22,15 @@ const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)
 //# piccolo appunto: si, sono un appassionato di NBA.
 
 const ovest = [
-    { nome: 'lakers', "punti fatti": 0, "falli subiti": 0 },
-    { nome: 'GSW', "punti fatti": 0, "falli subiti": 0 },
-    { nome: 'Sacramento', "punti fatti": 0, "falli subiti": 0 }
+    { nome: 'lakers', puntiFatti: 0, falliSubiti: 0 },
+    { nome: 'GSW', puntiFatti: 0, falliSubiti: 0 },
+    { nome: 'Sacramento', puntiFatti: 0, falliSubiti: 0 }
 ];
 
 const est = [
-    { nome: 'chicago', "punti fatti": 0, "falli subiti": 0 },
-    { nome: 'toronto', "punti fatti": 0, "falli subiti": 0 },
-    { nome: 'miami', "punti fatti": 0, "falli subiti": 0 }
+    { nome: 'chicago', puntiFatti: 0, falliSubiti: 0 },
+    { nome: 'toronto', puntiFatti: 0, falliSubiti: 0 },
+    { nome: 'miami', puntiFatti: 0, falliSubiti: 0 }
 ]
 
 
@@ -40,5 +40,7 @@ const NBA = [...ovest, ...est];
 console.table(NBA);
 
 for (let k = 0; k < NBA.length; k++) {
-
+    let { nome, falliSubiti } = NBA[k];
+    console.log(nome);
+    console.log(falliSubiti);
 }
