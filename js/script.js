@@ -19,11 +19,24 @@ const bikes = [
     { nome: 'crispy', peso: 3 }
 ];
 
-const weightBikes = [];
 
 //! SECOND STEP
+//| soluzione "semplice"
+
+let minWeight = 0;
+for (let k = 0; k < bikes.length; k++) {
+    console.log(bikes[k]);
+    if (bikes[k].peso < bikes[minWeight].peso) minWeight = k;
+}
+
+console.log(bikes[minWeight].peso);
+
+
+// # MIA SOLUZIONE
+/*
 //| ciclo in cui cercare ciò che mi interessa
 // inizializzo una variabile vuota
+const weightBikes = [];
 let weight = 0;
 
 // ciclo in cui "girare"
@@ -40,3 +53,4 @@ for (let j = 0; j < bikes.length; j++) {
 }
 
 console.table(weightBikes);
+*/
