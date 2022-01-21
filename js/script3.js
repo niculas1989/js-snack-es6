@@ -24,9 +24,22 @@ const nbaPlayers = [
 //* dalla posizione dell'array 2 (Jordan) fino alla posizione 9 (Malone)
 //* devo creare quindi un nuovo array con questo nuovo intervallo
 
+
+function someOne(array, a, b) {
+    return array.slice(a, b);
+}
+
+
 //| provo a buttar giù una funzione che mi permetta di muovermi tra gli intervalli che stabilisco io
 
-//# creazione nuovo array vuoto
+let someNbaPlayers = someOne(nbaPlayers, 2, 8);
+console.log(someNbaPlayers);
+
+
+
+
+//# creazione nuovo array con l'intervallo da me definito
+/*
 let someNbaPlayers = nbaPlayers.slice(2, 8);
 
-console.log(someNbaPlayers);
+console.log(someNbaPlayers);*/
