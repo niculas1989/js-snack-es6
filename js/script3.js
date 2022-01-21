@@ -5,6 +5,7 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 Usiamo i nuovi metodi degli array visti oggi in classe.
 */
 
+/*
 //# step 1 - scrivere una funzione che raggruppa tre valori (come in traccia)
 function someNbaPlayers(arrays, a, b) {
     const newArray = arrays.filter((array) => {
@@ -13,6 +14,7 @@ function someNbaPlayers(arrays, a, b) {
         }
     })
 }
+*/
 
 //# step 2 - creare un array in cui poterci "muovere" all'interno della funzione
 const nbaPlayers = [
@@ -27,9 +29,13 @@ const nbaPlayers = [
     'Julius Erving'
 ];
 
+
+
+
+/*
 console.log(nbaPlayers);
 
 const somePlayers = someNbaPlayers(nbaPlayers, 4, 8);
 
 console.log(somePlayers);
-
+*/
