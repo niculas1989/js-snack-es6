@@ -5,17 +5,6 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 Usiamo i nuovi metodi degli array visti oggi in classe.
 */
 
-/*
-//# step 1 - scrivere una funzione che raggruppa tre valori (come in traccia)
-function someNbaPlayers(arrays, a, b) {
-    const newArray = arrays.filter((array) => {
-        if (newArray < a && newArray > b) {
-            return newArray;
-        }
-    })
-}
-*/
-
 //# step 2 - creare un array in cui poterci "muovere" all'interno della funzione
 const nbaPlayers = [
     'Lebron James',
@@ -31,26 +20,14 @@ const nbaPlayers = [
     'John Stockton'
 ];
 
-
-
 //* vorrei "muovermi" all'interno dell'array che ho qui sopra in due intervalli:
 //* dalla posizione dell'array 2 (Jordan) fino alla posizione 9 (Malone)
 //* devo creare quindi un nuovo array con questo nuovo intervallo
+
+//| provo a buttar giù una funzione che mi permetta di muovermi tra gli intervalli che stabilisco io
 
 let someNbaPlayers;
 
 nbaPlayers.forEach(element => {
     console.log(element);
-
-
-
-
-
-    /*
-    someNbaPlayers = nbaPlayers.map(player => {
-        //! TROVARE SOLUZIONE PER CAPIRE COME MUOVERSI NELL'INTERVALLO VOLUTO
-        //! PASSARE POI AD IMPLEMENTARE LA FUNZIONE VOLUTA
-    })*/
-});
-
-console.log(someNbaPlayers);
+})
