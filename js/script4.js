@@ -51,7 +51,7 @@ console.table(target);
 
 // # step3 - Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70
 
-const votes = students.map(student => {
+const votes = students.filter(student => {
     if (student.voto > 70) {
         return student;
     }
@@ -61,7 +61,7 @@ console.table(votes);
 
 // # step4 - Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 e id superiore a 120
 
-const votesId = students.map(student => {
+const votesId = students.filter(student => {
     if (student.id > 120 && student.voto > 70) {
         return student;
     }
