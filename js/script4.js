@@ -39,4 +39,35 @@ const students = [
     { nome: 'pippo baudo', id: 800, voto: 90 },
     { nome: 'mike buongiorno', id: 410, voto: 80 },
     { nome: 'gabriele mendola', id: 240, voto: 35 }
-]
+];
+
+console.table(students);
+
+//# step2 - creazione di una nuova lista contenente il nome degli studenti in maiuscolo
+
+const target = students.map(student => student.nome.charAt(0).toUpperCase() + student.nome.substring(1).toLowerCase());
+
+console.table(target);
+
+// # step3 - Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70
+
+const votes = students.map(student => {
+    if (student.voto > 70) {
+        return student;
+    }
+});
+
+console.table(votes);
+
+// # step4 - Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 e id superiore a 120
+
+const votesId = students.map(student => {
+    if (student.id > 120 && student.voto > 70) {
+        return student;
+    }
+})
+
+console.table(votesId);
+
+
+
