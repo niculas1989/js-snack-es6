@@ -31,23 +31,14 @@ const nbaPlayers = [
     'John Stockton'
 ];
 
+let someNbaPlayers;
 
-const a = 3;
-const b = 8;
-
-const someNbaPlayers = nbaPlayers.filter(item => {
-    return item === 'Blake Griffin';
-})
+nbaPlayers.forEach(element => {
+    console.log(element);
+    someNbaPlayers = nbaPlayers.map(player => {
+        //! TROVARE SOLUZIONE PER CAPIRE COME MUOVERSI NELL'INTERVALLO VOLUTO
+        //! PASSARE POI AD IMPLEMENTARE LA FUNZIONE VOLUTA
+    })
+});
 
 console.log(someNbaPlayers);
-
-
-
-
-/*
-console.log(nbaPlayers);
-
-const somePlayers = someNbaPlayers(nbaPlayers, 4, 8);
-
-console.log(somePlayers);
-*/
