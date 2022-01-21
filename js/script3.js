@@ -26,8 +26,16 @@ const nbaPlayers = [
     'Blake Griffin',
     'Delonte West',
     'Klay Thompson',
-    'Julius Erving'
+    'Julius Erving',
+    'Karl Malone',
+    'John Stockton'
 ];
+
+const someNbaPlayers = nbaPlayers.filter(item => {
+    if () {
+
+    }
+})
 
 
 
