@@ -31,14 +31,26 @@ const nbaPlayers = [
     'John Stockton'
 ];
 
+
+
+//* vorrei "muovermi" all'interno dell'array che ho qui sopra in due intervalli:
+//* dalla posizione dell'array 2 (Jordan) fino alla posizione 9 (Malone)
+//* devo creare quindi un nuovo array con questo nuovo intervallo
+
 let someNbaPlayers;
 
 nbaPlayers.forEach(element => {
     console.log(element);
+
+
+
+
+
+    /*
     someNbaPlayers = nbaPlayers.map(player => {
         //! TROVARE SOLUZIONE PER CAPIRE COME MUOVERSI NELL'INTERVALLO VOLUTO
         //! PASSARE POI AD IMPLEMENTARE LA FUNZIONE VOLUTA
-    })
+    })*/
 });
 
 console.log(someNbaPlayers);
