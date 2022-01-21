@@ -26,8 +26,7 @@ const nbaPlayers = [
 
 //| provo a buttar giù una funzione che mi permetta di muovermi tra gli intervalli che stabilisco io
 
-let someNbaPlayers;
+//# creazione nuovo array vuoto
+let someNbaPlayers = nbaPlayers.slice(2, 8);
 
-nbaPlayers.forEach(element => {
-    console.log(element);
-})
+console.log(someNbaPlayers);
