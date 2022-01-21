@@ -31,11 +31,15 @@ const nbaPlayers = [
     'John Stockton'
 ];
 
-const someNbaPlayers = nbaPlayers.filter(item => {
-    if () {
 
-    }
+const a = 3;
+const b = 8;
+
+const someNbaPlayers = nbaPlayers.filter(item => {
+    return item === 'Blake Griffin';
 })
+
+console.log(someNbaPlayers);
 
 
 
