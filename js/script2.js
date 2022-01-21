@@ -45,7 +45,7 @@ for (let k = 0; k < NBA.length; k++) {
     let { nome, falliSubiti } = NBA[k];
     falliSubiti = getRandomNumber(1, 100);
 
-    newRules.push(nome, falliSubiti);
+    newRules.push({ nome, falliSubiti });
 }
 
 console.table(newRules);
