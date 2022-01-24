@@ -43,3 +43,14 @@ console.log(someNbaPlayers);
 let someNbaPlayers = nbaPlayers.slice(2, 8);
 
 console.log(someNbaPlayers);*/
+
+
+const arraySlice = (arr, start, end) => {
+    const newArray = [];
+    arr.forEach((item, index) => {
+        if (index >= start && index <= end) {
+            newArray.push(item);
+        }
+    });
+    return newArray;
+}
